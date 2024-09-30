@@ -10,4 +10,5 @@
 - git add .
 - git commit -m "[Message]"
 - git pull
-- git stash                     
+- git stash       
+- git remote set-url origin [NEW_URL]              
