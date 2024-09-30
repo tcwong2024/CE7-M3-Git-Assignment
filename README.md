@@ -18,3 +18,11 @@
 
 ## Advance Git commands
 - git checkout
+- git branch
+- git pull
+- git checkout -b feature/devops-0930-update-readme
+- [update the code] - [git add .] - [git commit -m ""] 
+- git push --set-upstream origin feature/devops-0930-update-readme
+- [Do compare and merge] - [Give comment] - [Merge]
+- git checkout main
+- git pull
