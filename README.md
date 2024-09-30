@@ -12,3 +12,9 @@
 - git pull
 - git stash       
 - git remote set-url origin [NEW_URL]              
+
+- git branch -r
+- git fetch
+
+## Advance Git commands
+- git checkout
