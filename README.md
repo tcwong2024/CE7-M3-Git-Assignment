@@ -5,5 +5,8 @@
 
 Git Commands :
 - git version
-- git clone
+- git clone [github repository]
+- git status
+- git add .
+- git commit -m "[Message]"
 - git pull
