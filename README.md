@@ -12,6 +12,7 @@
 | ```git status``` | Checks the local folder for any new or modified files. |
 | ```git add .``` | Stages all new and modified files for the next commit. |
 | ```git commit -m "<Message>"``` | Commits the staged changes with a descriptive message (replace <message> with your specific change description). |
+| ```git log``` | View all the commits history of your repository. |
 | ```git stash``` | Temporarily saves your changes without committing, allowing you to work on something else.  |
 | ```git remote -v```| Displays the remote URLs that your Git repository is pointing to. |
 | ```git remote set-url origin <NEW_URL>``` | Updates the local Git repository's remote URL if the GitHub repository's name changes. |
