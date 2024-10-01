@@ -13,6 +13,7 @@
 | ```git add .``` | Stages all new and modified files for the next commit. |
 | ```git commit -m "<Message>"``` | Commits the staged changes with a descriptive message (replace <message> with your specific change description). |
 | ```git stash``` | Temporarily saves your changes without committing, allowing you to work on something else.  |
+| ```git remote -v```| Displays the remote URLs that your Git repository is pointing to. |
 | ```git remote set-url origin <NEW_URL>``` | Updates the local Git repository's remote URL if the GitHub repository's name changes. |
 
 ## Git Commands - Working on branch 
@@ -20,9 +21,9 @@
 | ------ | ------ |
 | ```git checkout```| Switches between branches or restores files. |
 | ```git branch```| Creates, lists, or deletes local branches. |
-| ```git branch``` | Lists local branches |
-| ```git branch -r``` | Lists remote branches |
-| ```git branch -a``` | Lists local and remote branches |
+| ```git branch``` | Lists local branches. |
+| ```git branch -r``` | Lists remote branches. |
+| ```git branch -a``` | Lists local and remote branches. |
 | ```git pull``` |  Fetches changes from the remote repository and merges them into your current branch. |
 | ```git checkout -b <NEW_BRANCH>``` | Creates and switches to a new branch (e.g., FeatureUpdate-DevOps-0930-UpdateReadMe). |
 | ```git push --set-upstream origin <NEW_BRANCH>``` | Pushes the new branch to the remote repository and sets the upstream tracking. |
@@ -33,7 +34,7 @@
 ## Assignment Hands-On Activity
 | Steps | Description |
 | ------ | ------ |
-| Create github repository. | https://github.com/tcwong2024/M3-Git-Assignment.git |
+| Create github repository. | Repository Name: ```M3-Git-Assignment``` <br> Repository URL : ```https://github.com/tcwong2024/M3-Git-Assignment.git``` |
 | Git clone the github repository | ```git clone https://github.com/tcwong2024/M3-Git-Assignment.git``` |
 | Do files modification | - Add input.txt and update ReadMe, then push to GitHub: <br> ```git status``` <br> ```git add .``` <br> ```git commit -m "<Message>"``` <br> ```git push origin main``` |
 | Crete new branch| ```git checkout -b <NEW_BRANCH>``` <br> ```git branch``` |
